@@ -30,7 +30,7 @@ def validate_case_matches_checkpoint(do_lower_case, init_checkpoint):
 
   # The casing has to be passed in by the user and there is no explicit check
   # as to whether it matches the checkpoint. The casing information probably
-  # should have been stored in the bert_config.json file, but it's not, so
+  # should have been stored in the bert_config.json.json file, but it's not, so
   # we have to heuristically detect it to validate.
 
   if not init_checkpoint:
